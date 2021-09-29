@@ -1,0 +1,65 @@
+body{
+    background-color: #d2edee;
+    margin: 0px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: 400;
+    color: white;
+}
+
+.contact{
+    align-items: center;
+    background-color: black;
+    padding: 10px
+}
+
+.contact p{
+    color: white;
+}
+
+.bodyimg{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.bodyimg p{
+    color:#f7f2f2;
+    font-size: 55px;
+    font-family: Century Gothic;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.bodyimg:hover p{
+    font-size: 60px
+}
+
+p{
+    color:black;
+    font-size: 30px;
+    font-family: Century Gothic;
+    text-align: center;
+}
+h3{
+    color:black;
+    font-family: Century gothic;
+    font-size: 30px;
+    margin: 50px
+}
+
+a:visited{
+    color: purple;
+}
+
+a:link{
+    color: white;
+}
